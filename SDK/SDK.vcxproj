@@ -140,10 +140,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chat.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mem.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="chat.h" />
     <ClInclude Include="includes.h" />
     <ClInclude Include="mem.h" />
   </ItemGroup>

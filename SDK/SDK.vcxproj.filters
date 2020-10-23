@@ -16,6 +16,12 @@
     <Filter Include="Headerdateien\mem">
       <UniqueIdentifier>{e8cc59b1-caf4-4089-9b81-5c3da89e75cd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Headerdateien\Components">
+      <UniqueIdentifier>{59b9ee77-2c1b-45ed-8ee2-5d276bb843a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Components\ChatManager">
+      <UniqueIdentifier>{7ff146e1-165a-40be-a3c7-7cd082adabdb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -24,6 +30,9 @@
     <ClCompile Include="mem.cpp">
       <Filter>Headerdateien\mem</Filter>
     </ClCompile>
+    <ClCompile Include="chat.cpp">
+      <Filter>Headerdateien\Components\ChatManager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes.h">
@@ -31,6 +40,9 @@
     </ClInclude>
     <ClInclude Include="mem.h">
       <Filter>Headerdateien\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="chat.h">
+      <Filter>Headerdateien\Components\ChatManager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
